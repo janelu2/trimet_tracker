@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="@drawable/top_bar"
+        android:baselineAligned="false"
+        android:orientation="vertical" >
+
+        <View
+            android:id="@+id/divider_"
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@drawable/divider_grey" />
+
+        <View
+            android:id="@+id/divider_"
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@drawable/divider_white" />
+
+        <TextView
+            android:id="@+id/CR_Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingBottom="6dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="4dp"
+            android:text="About TriMet Tracker"
+            android:textSize="22sp" />
+
+        <View
+            android:id="@+id/divider_"
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@drawable/divider_black" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/AS_link_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+    </ListView>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp">
+
+        <ImageView
+            android:id="@+id/AS_app_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/AS_version_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/AS_app_icon"
+            android:textAppearance="?android:attr/textAppearanceMedium" android:freezesText="true"/>
+
+        <TextView
+            android:id="@+id/AS_copyright_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/AS_version_text"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@id/AS_app_icon"
+            android:paddingBottom="7dp"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    </RelativeLayout>
+
+</LinearLayout>

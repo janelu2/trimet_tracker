@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  
+  <LinearLayout android:layout_height="wrap_content"
+		android:id="@+id/topBar" android:layout_width="match_parent"
+		android:baselineAligned="false" android:layout_gravity="center"
+		android:orientation="vertical" android:background="@drawable/top_bar">
+		<View android:background="@drawable/divider_grey"
+			android:layout_width="fill_parent" android:layout_height="1px"
+			android:id="@+id/divider_"></View>
+		<View android:background="@drawable/divider_white"
+			android:layout_width="fill_parent" android:layout_height="1px"
+			android:id="@+id/divider_"></View>
+		<TextView android:textSize="22sp" android:paddingLeft="10dp"
+			android:text="@string/CR_Title" android:id="@+id/CR_Title"
+			android:paddingRight="10dp" android:layout_height="wrap_content"
+			android:paddingTop="5dp" android:layout_width="wrap_content"
+			android:layout_gravity="center" android:paddingBottom="5dp"></TextView>
+		<View android:background="@drawable/divider_black"
+			android:layout_width="fill_parent" android:layout_height="1px"
+			android:id="@+id/divider_"></View>
+	</LinearLayout>
+	
+	<ListView android:layout_weight="1" android:id="@+id/CR_ListView"
+		android:layout_width="wrap_content" android:layout_gravity="fill"
+		android:layout_height="match_parent"></ListView>
+		
+    <View android:layout_width="fill_parent" android:layout_height="1px"
+		android:background="@drawable/divider_grey" android:id="@+id/divider2"></View>
+    <LinearLayout android:layout_width="match_parent"
+		android:id="@+id/CR_BottomBar" android:layout_gravity="bottom"
+		android:background="@drawable/top_bar" android:layout_height="52dp">
+		<EditText android:layout_width="wrap_content" android:hint="@string/CR_TextTip"
+			android:layout_gravity="bottom" android:cursorVisible="true"
+			android:layout_weight="2" android:layout_height="wrap_content" android:layout_marginRight="5dp"
+			android:id="@+id/CR_FilterTextBox" android:inputType="textFilter" android:layout_marginLeft="5dp">
+			<requestFocus></requestFocus>
+		</EditText>
+	</LinearLayout>
+    
+</LinearLayout>

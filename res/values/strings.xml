@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, homepage!</string>
+    <string name="app_name">TriMet Tracker Free</string>
+    <string name="homepageAddString">Add</string>
+    <string name="homepageGo">Go</string>
+    <string name="homepageFindStop">Find A Stop</string>
+    <string name="homepageTextTip">Enter Stop ID</string>
+    <string name="baseArrivalURL">http://developer.trimet.org/ws/V1/arrivals?appID=4830CC8DCF9D9BE9EB56D3256&amp;locIDs=</string>
+    <string name="homepageTitle">Favorite Stops</string>
+    <string name="test">test</string>
+    <string name="test2">test2</string>
+    <string name="noInternetError">Error: No Internet Connection</string>
+    <string name="refresh">Refresh</string>
+    <string name="favorited">Remove</string>
+    <string name="addToFavorites">Favorite Stop</string>
+    <string name="stopFavorited">Stop added to favorites</string>
+    <string name="stopRemoved">Stop removed from favorites</string>
+    <string name="dialogGettingArrivals">Getting Arrivals</string>
+    <string name="errorNoStopID">Please enter a stop ID</string>
+    <string name="scheduled">Scheduled</string>
+    <string-array name="NamedRoutes">
+    <item>90</item>
+    <item>100</item>
+    <item>200</item>
+    <item>190</item>
+    <item>203</item>
+    <item>193</item>
+    <item>150</item>
+    <item>98</item>
+    <item>93</item>
+    </string-array>
+    <string-array name="RouteNamed">
+    <item>Red</item>
+    <item>Blue</item>
+    <item>Green</item>
+    <item>Yellow</item>
+    <item>WES</item>
+    <item>Street Car</item>
+    <item>Mall Shuttle</item>
+    <item>Shuttle</item>
+    <item>Vintage Trolley</item>
+    </string-array>
+    <string name="note">Note:</string>
+    <string name="gmaps_api_paid">0K0aR6CD-L6sl1hCPjpPiwEOmZrn3fnwzmH67Cg</string>
+    <string name="gmaps_api_free">0K0aR6CD-L6ur6KsT2bkvPnFcBrr8AT4n4I6J0A</string>
+    <string name="gmaps_api_debug">0K0aR6CD-L6ur6KsT2bkvPnFcBrr8AT4n4I6J0A</string>
+    <string name="Cancel">Cancel</string>
+    <string name="CR_Title">Choose A Route</string>
+    <string name="CD_Title">Choose A Direction</string>
+    <string name="CS_Title">Choose A Stop</string>
+    <string name="menu_findStop">Find A Stop</string>
+    <string name="menu_nearbyStops">Find Nearby Stops</string>
+    <string name="dialogGettingRoutes">Retrieving Route Information</string>
+    <string name="dialogFindingStops">Retrieving Stop Information</string>
+    <string name="dialogFindingLocation">Retrieving GPS Location</string>
+    <string name="dialogGettingDetours">Retrieving Detour Information</string>
+    <string name="CR_Filter">Go</string>
+    <string name="CR_TextTip">Type a route # or name</string>
+    <string name="FNB_TextTip">Type a route # or name</string>
+    <string name="baseRoutesURL">http://developer.trimet.org/ws/V1/routeConfig/appid/4830CC8DCF9D9BE9EB56D3256/</string>
+    <string name="errorGeneric">Error: There was a problem getting the data</string>
+    <string name="endRoutesURL">dir/true/stops/true/route/</string>
+    <string name="DetoursActiveButton">Detours Active</string>
+    <string name="baseDetourUrl">http://developer.trimet.org/ws/V1/detours?appID=4830CC8DCF9D9BE9EB56D3256&amp;routes=</string>
+    <string name="welcomeTitle">Welcome to TriMet Tracker</string>
+    <string name="welcomeMessage">If you are at a TriMet stop, you can enter the Stop ID from the sign below.\n\nYou can also hit the menu button to find stops manually or find nearby stops using your GPS.\n\nAs you add stops to your favorites, they will show up here for quick access.\n\nThank you for using my app!</string>
+    <string name="noArrivalsTitle">No Arrivals Found</string>
+    <string name="noArrivalsMessage">No arrivals could be found for this stop.\n\nNote that TriMet does not currently make Portland Streetcar arrival data available.</string>
+    <string name="baseScheduleUrl">http://trimet.org/go/cgi-bin/cstops.pl?lang=pda&amp;action=entry&amp;Loc=</string>
+    <string name="menuSchedule">View Schedule</string>
+    <string name="baseStopsSearchUrl">http://developer.trimet.org/ws/V1/stops/appid/4830CC8DCF9D9BE9EB56D3256/showRoutes/true/feet/2640/ll/</string>
+    <string name="menu_about">About</string>
+    <string name="companyName">Beagle Apps</string>
+    <string name="authorName">Joe Pinsonault</string>
+    <string name="getArrivalInformation">Get Arrival Information</string>
+    <string name="routesAtThisStop">Routes at this stop:</string>
+    <string name="direction">Direction</string>
+    <string name="problemGettingGPS">There was a problem getting your GPS location.</string>
+    <string name="GPSTimeout">It\'s taking too long to find your location. Try to move outside or near a window for a better signal.</string>
+    <string name="GPSDisabled">Problem: GPS is not enabled on your device</string>
+    <string name="admob_publisher_id">a14fee70c1792b4</string>
+    <string name="FN_Title">Find A Nearby Stop</string>
+    <string name="MV_favorites">Favorites</string>
+    <string name="MV_allStops">All Stops</string>
+    <string name="MV_sortMostRecent">Recent</string>
+    <string name="MV_sortMostVisited">Visits</string>
+    <string name="MV_sortStopID">Stop ID</string>
+    <string name="chooseSortMethod">Sort by</string>
+    <string name="chooseDisplayChoice">Which stops to show</string>
+    <string name="MV_deleteFromHistory">Remove from history</string>
+    <string name="MV_deleteFromFavorites">Remove from favorites</string>
+    <string name="MV_deleteFromBoth">Remove from both</string>
+    <string name="chooseOption">Choose an option</string>
+    <string name="MV_displayChoiceLabel">Show:</string>
+    <string name="MV_sortLabel">Sort By:</string>
+    <string name="menuShowOnMap">Show On Map</string>
+</resources>

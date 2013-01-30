@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent" android:layout_width="match_parent"
+	android:id="@+id/chooseStopLinearLayout" android:orientation="vertical"
+	android:fadingEdge="none" android:fadingEdgeLength="0dp">
+	<LinearLayout android:id="@+id/CS_TopBar"
+		android:layout_gravity="center" android:baselineAligned="false"
+		android:layout_height="wrap_content" android:layout_width="match_parent"
+		android:orientation="vertical" android:background="@drawable/top_bar">
+		<View android:background="@drawable/divider_grey"
+			android:layout_width="fill_parent" android:layout_height="1px"
+			android:id="@+id/divider_"></View>
+		<View android:background="@drawable/divider_white"
+			android:layout_width="fill_parent" android:layout_height="1px"
+			android:id="@+id/divider_"></View>
+		<TextView android:maxLines="1" android:text="@string/CS_Title"
+			android:textSize="20sp" android:singleLine="true"
+			android:paddingLeft="10dp" android:id="@+id/CS_title"
+			android:paddingRight="10dp" android:layout_height="wrap_content"
+			android:paddingTop="5dp" android:layout_gravity="center"
+			android:layout_width="wrap_content"></TextView>
+		<TextView android:maxLines="1" android:text="Route"
+			android:textSize="15sp" android:singleLine="true"
+			android:paddingLeft="10dp" android:id="@+id/CS_route_description"
+			android:paddingRight="10dp" android:layout_height="wrap_content"
+			android:layout_gravity="center" android:layout_width="wrap_content"
+			></TextView>
+		<TextView android:maxLines="1" android:text="Direction"
+			android:textSize="15sp" android:singleLine="true"
+			android:paddingLeft="10dp" android:id="@+id/CS_direction_description"
+			android:paddingRight="10dp" android:layout_height="wrap_content"
+			android:layout_gravity="center" android:layout_width="wrap_content"
+			android:paddingBottom="5dp"></TextView>
+		<View android:background="@drawable/divider_black"
+			android:layout_width="fill_parent" android:layout_height="1px"
+			android:id="@+id/divider_"></View>
+	</LinearLayout>
+
+	<ListView android:layout_width="match_parent"
+		android:layout_height="match_parent" android:id="@+id/CS_ListView">
+	</ListView>
+</LinearLayout>

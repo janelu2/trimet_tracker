@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+	android:layout_width="wrap_content" android:layout_height="match_parent"
+	android:id="@+id/mainLinearLayout" xmlns:android="http://schemas.android.com/apk/res/android">
+	<RelativeLayout android:id="@+id/stopsRelativeLayout"
+		android:layout_height="match_parent" android:layout_width="wrap_content">
+		<TextView android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:id="@+id/FSRouteDescription"
+			android:layout_alignParentLeft="true" android:layout_alignParentTop="true"
+			android:paddingLeft="10dp" android:paddingRight="10dp"
+			android:paddingTop="5dp" android:singleLine="true"
+			android:layout_toLeftOf="@+id/FSStopID" android:textSize="16sp"></TextView>
+		<TextView android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:id="@+id/FSStopID"
+			android:textSize="16sp" android:layout_alignParentRight="true"
+			android:layout_alignParentTop="true" android:paddingLeft="10dp"
+			android:paddingRight="10dp" android:paddingTop="5dp"
+			android:textColor="@color/Green"></TextView>
+
+		<TextView
+		    android:id="@+id/FSDirection"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentBottom="true"
+		    android:layout_alignParentLeft="true"
+		    android:layout_below="@+id/FSRouteDescription"
+		    android:paddingBottom="5dp"
+		    android:paddingLeft="15dp"
+		    android:paddingRight="10dp"
+		    android:textSize="14sp">
+
+</TextView>
+		<TextView android:layout_height="wrap_content" android:id="@+id/FSRoutes"
+			android:layout_alignParentRight="true"
+			android:layout_alignParentBottom="true" android:layout_below="@+id/FSStopID"
+			android:paddingLeft="10dp" android:paddingRight="10dp"
+			android:textColor="@color/Blue" android:paddingBottom="5dp"
+			android:textSize="14sp" android:layout_width="wrap_content" android:layout_toRightOf="@id/FSDirection" android:singleLine="true" android:gravity="right"></TextView>
+
+	</RelativeLayout>
+</LinearLayout>
