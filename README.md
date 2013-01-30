@@ -1,4 +1,4 @@
-trimet_tracker
+TriMet Tracker for Android
 ==============
 
 TriMet Tracker provides quick access to the Bus and MAX stops that you frequent in the Portland area. This app is especially useful for people who commute frequently and want access to the real time arrival info as quickly as possible.
