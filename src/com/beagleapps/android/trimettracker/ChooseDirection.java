@@ -16,7 +16,7 @@ import android.widget.Toast;
 import com.beagleapps.android.trimettracker.adapters.DirectionAdapter;
 import com.beagleapps.android.trimettracker.helpers.XMLIOHelper;
 import com.beagleapps.android.trimettracker.objects.Direction;
-import com.beagleapps.android.trimettrackerfree.R;
+import com.beagleapps.android.trimettracker.R;
 
 public class ChooseDirection extends Activity {
 	

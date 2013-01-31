@@ -10,7 +10,7 @@ import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
 import com.beagleapps.android.trimettracker.objects.Route;
-import com.beagleapps.android.trimettrackerfree.R;
+import com.beagleapps.android.trimettracker.R;
 
 public class RouteAdapter extends ArrayAdapter<Route> {
 	private final Activity context;

@@ -11,7 +11,7 @@ import android.widget.TextView;
 import com.beagleapps.android.trimettracker.adapters.DetourAdapter;
 import com.beagleapps.android.trimettracker.helpers.XMLIOHelper;
 import com.beagleapps.android.trimettracker.objects.Detour;
-import com.beagleapps.android.trimettrackerfree.R;
+import com.beagleapps.android.trimettracker.R;
 
 public class ShowDetour extends Activity {
 	String TAG = "showDetour";

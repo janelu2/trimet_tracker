@@ -18,7 +18,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.beagleapps.android.trimettracker.objects.Route;
-import com.beagleapps.android.trimettrackerfree.R;
+import com.beagleapps.android.trimettracker.R;
 
 public class FindNearbyPopup extends Activity {
 	

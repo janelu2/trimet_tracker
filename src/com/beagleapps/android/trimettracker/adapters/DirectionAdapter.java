@@ -10,7 +10,7 @@ import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
 import com.beagleapps.android.trimettracker.objects.Direction;
-import com.beagleapps.android.trimettrackerfree.R;
+import com.beagleapps.android.trimettracker.R;
 
 public class DirectionAdapter extends ArrayAdapter<Direction> {
 	private final Activity context;

@@ -3,7 +3,7 @@ package com.beagleapps.android.trimettracker;
 import java.util.ArrayList;
 import java.util.Date;
 
-import com.beagleapps.android.trimettrackerfree.R;
+import com.beagleapps.android.trimettracker.R;
 import org.w3c.dom.Document;
 
 import android.app.Activity;
@@ -536,6 +536,7 @@ public class ShowStop extends Activity {
 			
 			public void onCancel(DialogInterface dialog) {
 				ShowStop.this.mDownloadArrivalTask.cancel(true);
+                ShowStop.this.resetRefreshDelay();
                 ShowStop.this.resetTimers();
 			}
 		};

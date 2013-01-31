@@ -10,7 +10,7 @@ import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
 import com.beagleapps.android.trimettracker.objects.Stop;
-import com.beagleapps.android.trimettrackerfree.R;
+import com.beagleapps.android.trimettracker.R;
 
 public class StopAdapter extends ArrayAdapter<Stop> {
 	private final Activity context;

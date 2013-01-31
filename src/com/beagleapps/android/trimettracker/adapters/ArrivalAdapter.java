@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 import com.beagleapps.android.trimettracker.objects.Arrival;
 import com.beagleapps.android.trimettracker.Colors;
-import com.beagleapps.android.trimettrackerfree.R;
+import com.beagleapps.android.trimettracker.R;
 
 public class ArrivalAdapter extends ArrayAdapter<Arrival> {
 	private final Activity context;

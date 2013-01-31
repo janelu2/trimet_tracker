@@ -2,7 +2,7 @@ package com.beagleapps.android.trimettracker;
 
 import java.util.ArrayList;
 
-import com.beagleapps.android.trimettrackerfree.R;
+import com.beagleapps.android.trimettracker.R;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;

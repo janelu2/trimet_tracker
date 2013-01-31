@@ -37,7 +37,7 @@ import com.beagleapps.android.trimettracker.helpers.PreferencesHelper;
 import com.beagleapps.android.trimettracker.helpers.ThemeHelper;
 import com.beagleapps.android.trimettracker.helpers.PreferencesHelper.Preferences;
 import com.beagleapps.android.trimettracker.objects.HistoryEntry;
-import com.beagleapps.android.trimettrackerfree.R;
+import com.beagleapps.android.trimettracker.R;
 
 public class MainView extends Activity {
 	/** Called when the activity is first created. */

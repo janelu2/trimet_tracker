@@ -10,7 +10,7 @@ import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
 import com.beagleapps.android.trimettracker.objects.HistoryEntry;
-import com.beagleapps.android.trimettrackerfree.R;
+import com.beagleapps.android.trimettracker.R;
 
 public class HistoryEntryAdapter extends ArrayAdapter<HistoryEntry> {
 	private final Activity context;

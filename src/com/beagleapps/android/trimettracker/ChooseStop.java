@@ -20,7 +20,7 @@ import android.widget.Toast;
 import com.beagleapps.android.trimettracker.adapters.StopAdapter;
 import com.beagleapps.android.trimettracker.helpers.XMLIOHelper;
 import com.beagleapps.android.trimettracker.objects.Stop;
-import com.beagleapps.android.trimettrackerfree.R;
+import com.beagleapps.android.trimettracker.R;
 
 public class ChooseStop extends Activity {
 
