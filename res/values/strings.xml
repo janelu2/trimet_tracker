@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="hello">Hello World, homepage!</string>
-    <string name="app_name">TriMet Tracker Free</string>
+    <string name="app_name">TriMet Tracker</string>
     <string name="homepageAddString">Add</string>
     <string name="homepageGo">Go</string>
     <string name="homepageFindStop">Find A Stop</string>

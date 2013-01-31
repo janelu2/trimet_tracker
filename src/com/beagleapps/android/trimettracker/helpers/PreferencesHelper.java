@@ -10,7 +10,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
 import com.beagleapps.android.trimettracker.objects.Preference;
-import com.beagleapps.android.trimettrackerfree.JSONReader;
+import com.beagleapps.android.trimettracker.JSONReader;
 
 public class PreferencesHelper {
 

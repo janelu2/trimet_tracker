@@ -16,18 +16,27 @@
 		<View android:background="@drawable/divider_white"
 			android:layout_width="fill_parent" android:layout_height="1px"
 			android:id="@+id/divider_"></View>
-
+
+
 		<LinearLayout
 		    android:id="@+id/FN_topBarHorizontal"
 		    android:layout_width="match_parent"
 		    android:layout_height="wrap_content" >
-
+
+
+
+
 			<LinearLayout
 			    android:layout_width="match_parent"
 			    android:layout_height="wrap_content"
 			    android:layout_weight="1"
 			    android:orientation="vertical" >
-
+
+
+
+
+
+
 				<TextView
 				    android:id="@+id/FN_Title"
 				    android:layout_width="wrap_content"
@@ -42,11 +51,15 @@
 				    android:textSize="22sp" />
 
 			</LinearLayout>
-
+
+
 		    <ImageView style="@style/TitleBarSeparatorDark" />
-
+
+
 		    <ImageView style="@style/TitleBarSeparatorLight" />
-
+
+
+
 		    <RelativeLayout
 		        android:id="@+id/FN_refreshButton"
 		        style="@style/GradiantButton"
@@ -54,7 +67,9 @@
 		        android:layout_height="match_parent"
 		        android:background="@drawable/gradiant_button"
 		        android:minWidth="40dp" >
-
+
+
+
 		        <ImageView
 		            android:id="@+id/FN_refreshImage"
 		            android:layout_width="wrap_content"
@@ -75,7 +90,7 @@
 	    android:layout_width="fill_parent"
 	    android:layout_height="fill_parent"
 	    android:clickable="true"
-	    android:apiKey="@string/gmaps_api_free" android:layout_weight="1"/>
+	    android:apiKey="@string/gmaps_api_paid" android:layout_weight="1"/>
 	
 	<View android:layout_width="fill_parent" android:layout_height="1px"
 			android:background="@drawable/divider_grey" android:id="@+id/divider2">

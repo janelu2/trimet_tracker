@@ -16,12 +16,17 @@
 		<View android:background="@drawable/divider_white"
 			android:layout_width="fill_parent" android:layout_height="1px"
 			android:id="@+id/divider_"></View>
-
+
+
 		<LinearLayout
 		    android:id="@+id/SOM_topBarHorizontal"
 		    android:layout_width="match_parent"
 		    android:layout_height="wrap_content" >
-
+
+
+
+
+
 			<TextView
 			    android:id="@+id/SOM_Title"
 			    android:layout_width="wrap_content"
@@ -38,7 +43,10 @@
 
 <ImageView style="@style/TitleBarSeparatorDark" />
 <ImageView style="@style/TitleBarSeparatorLight" />
-
+
+
+
+
 <RelativeLayout
     android:id="@+id/SOM_gpsButton"
     style="@style/GradiantButton"
@@ -46,7 +54,11 @@
     android:layout_height="match_parent"
     android:background="@drawable/gradiant_button"
     android:minWidth="40dp" >
-
+
+
+
+
+
     <ImageView
         android:id="@+id/SOM_buttonImage"
         android:layout_width="wrap_content"
@@ -67,7 +79,7 @@
 	    android:layout_width="fill_parent"
 	    android:layout_height="fill_parent"
 	    android:clickable="true"
-	    android:apiKey="@string/gmaps_api_free" android:layout_weight="1"/>
+	    android:apiKey="@string/gmaps_api_paid" android:layout_weight="1"/>
 	
 	<View android:layout_width="fill_parent" android:layout_height="1px"
 			android:background="@drawable/divider_grey" android:id="@+id/divider2">

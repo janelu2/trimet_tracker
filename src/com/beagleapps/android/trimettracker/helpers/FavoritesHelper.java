@@ -58,9 +58,6 @@ public class FavoritesHelper {
 				stopID, null) > 0;
 	}
 
-	/**
-	 * Return a Cursor positioned at the defined todo
-	 */
 	public static Cursor fetchFavorite(SQLiteDatabase database, long stopID) throws SQLException {
 		Cursor mCursor = database.query(true, DBHelper.TABLE_FAVORITES, new String[] {
 				DBHelper.COL_STOPID, DBHelper.COL_DESCRIPTION, DBHelper.COL_DIRECTION, DBHelper.COL_ROUTES },

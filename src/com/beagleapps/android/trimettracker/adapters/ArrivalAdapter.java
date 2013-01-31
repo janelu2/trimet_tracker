@@ -11,7 +11,7 @@ import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
 import com.beagleapps.android.trimettracker.objects.Arrival;
-import com.beagleapps.android.trimettrackerfree.Colors;
+import com.beagleapps.android.trimettracker.Colors;
 import com.beagleapps.android.trimettrackerfree.R;
 
 public class ArrivalAdapter extends ArrayAdapter<Arrival> {
