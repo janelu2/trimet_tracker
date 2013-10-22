@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-	<style name="GradiantButton" parent="android:style/Theme.NoTitleBar">
-        <item name="android:buttonStyle">@style/GradiantButton</item>
-    </style>
-    <style name="RedButton" parent="android:style/Theme.NoTitleBar">
-        <item name="android:buttonStyle">@style/RedButton</item>
-    </style>
-</resources>

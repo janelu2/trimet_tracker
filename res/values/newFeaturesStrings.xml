@@ -1,3 +1,0 @@
-<resources>
-    <string name="PopupMessage">What\'s new: \n\n1.18:\n• Fixed many of the force close issues. The error reports you send in do help me, and I do read them. Thanks everyone.\n\n1.17:\n• Fixed bug causing \'Find a stop\' screen to freeze/crash\n\n1.16:\n• More Bug Fixes\n\n1.15:\n• Hopefully fixed most of the force-close issues. I apologize, they\'re difficult to recreate and track down.\n\n1.10:\n• Can now see a stop (and your location) on a map\n• Fixed issue causing maps not to load properly\n\n1.05\n• Now keeps track of the stops you have visited.\n• Can now sort by \"Most Visited\", and \"Most Recent\".\n• Fixed a bug causing \"Find Nearby Stops\" to force close.\n</string>
-</resources>
